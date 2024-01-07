@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59FF495A2B46034800E2B3A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FF49592B46034800E2B3A9 /* AppDelegate.swift */; };
+		59FF495C2B46034800E2B3A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FF495B2B46034800E2B3A9 /* SceneDelegate.swift */; };
+		59FF495E2B46034800E2B3A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FF495D2B46034800E2B3A9 /* ViewController.swift */; };
+		59FF49612B46034800E2B3A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59FF495F2B46034800E2B3A9 /* Main.storyboard */; };
+		59FF49642B46034800E2B3A9 /* examenLiverPool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 59FF49622B46034800E2B3A9 /* examenLiverPool.xcdatamodeld */; };
+		59FF49662B46034900E2B3A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59FF49652B46034900E2B3A9 /* Assets.xcassets */; };
+		59FF49692B46034900E2B3A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59FF49672B46034900E2B3A9 /* LaunchScreen.storyboard */; };
+		59FF49742B46034900E2B3A9 /* examenLiverPoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FF49732B46034900E2B3A9 /* examenLiverPoolTests.swift */; };
+		59FF497E2B46034900E2B3A9 /* examenLiverPoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FF497D2B46034900E2B3A9 /* examenLiverPoolUITests.swift */; };
+		59FF49802B46034900E2B3A9 /* examenLiverPoolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FF497F2B46034900E2B3A9 /* examenLiverPoolUITestsLaunchTests.swift */; };
+		59FF498D2B460C8700E2B3A9 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FF498C2B460C8700E2B3A9 /* detailViewController.swift */; };
+		59FF498F2B46219E00E2B3A9 /* TopPlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FF498E2B46219E00E2B3A9 /* TopPlayersViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59FF49702B46034900E2B3A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59FF494E2B46034800E2B3A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59FF49552B46034800E2B3A9;
+			remoteInfo = examenLiverPool;
+		};
+		59FF497A2B46034900E2B3A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59FF494E2B46034800E2B3A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59FF49552B46034800E2B3A9;
+			remoteInfo = examenLiverPool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59FF49562B46034800E2B3A9 /* examenLiverPool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = examenLiverPool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59FF49592B46034800E2B3A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59FF495B2B46034800E2B3A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		59FF495D2B46034800E2B3A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59FF49602B46034800E2B3A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59FF49632B46034800E2B3A9 /* examenLiverPool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = examenLiverPool.xcdatamodel; sourceTree = "<group>"; };
+		59FF49652B46034900E2B3A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59FF49682B46034900E2B3A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59FF496A2B46034900E2B3A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59FF496F2B46034900E2B3A9 /* examenLiverPoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = examenLiverPoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59FF49732B46034900E2B3A9 /* examenLiverPoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = examenLiverPoolTests.swift; sourceTree = "<group>"; };
+		59FF49792B46034900E2B3A9 /* examenLiverPoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = examenLiverPoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59FF497D2B46034900E2B3A9 /* examenLiverPoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = examenLiverPoolUITests.swift; sourceTree = "<group>"; };
+		59FF497F2B46034900E2B3A9 /* examenLiverPoolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = examenLiverPoolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		59FF498C2B460C8700E2B3A9 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		59FF498E2B46219E00E2B3A9 /* TopPlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPlayersViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59FF49532B46034800E2B3A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59FF496C2B46034900E2B3A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59FF49762B46034900E2B3A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59FF494D2B46034800E2B3A9 = {
+			isa = PBXGroup;
+			children = (
+				59FF49582B46034800E2B3A9 /* examenLiverPool */,
+				59FF49722B46034900E2B3A9 /* examenLiverPoolTests */,
+				59FF497C2B46034900E2B3A9 /* examenLiverPoolUITests */,
+				59FF49572B46034800E2B3A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59FF49572B46034800E2B3A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59FF49562B46034800E2B3A9 /* examenLiverPool.app */,
+				59FF496F2B46034900E2B3A9 /* examenLiverPoolTests.xctest */,
+				59FF49792B46034900E2B3A9 /* examenLiverPoolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59FF49582B46034800E2B3A9 /* examenLiverPool */ = {
+			isa = PBXGroup;
+			children = (
+				59FF49592B46034800E2B3A9 /* AppDelegate.swift */,
+				59FF495B2B46034800E2B3A9 /* SceneDelegate.swift */,
+				59FF495D2B46034800E2B3A9 /* ViewController.swift */,
+				59FF495F2B46034800E2B3A9 /* Main.storyboard */,
+				59FF49652B46034900E2B3A9 /* Assets.xcassets */,
+				59FF49672B46034900E2B3A9 /* LaunchScreen.storyboard */,
+				59FF496A2B46034900E2B3A9 /* Info.plist */,
+				59FF49622B46034800E2B3A9 /* examenLiverPool.xcdatamodeld */,
+				59FF498C2B460C8700E2B3A9 /* detailViewController.swift */,
+				59FF498E2B46219E00E2B3A9 /* TopPlayersViewController.swift */,
+			);
+			path = examenLiverPool;
+			sourceTree = "<group>";
+		};
+		59FF49722B46034900E2B3A9 /* examenLiverPoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				59FF49732B46034900E2B3A9 /* examenLiverPoolTests.swift */,
+			);
+			path = examenLiverPoolTests;
+			sourceTree = "<group>";
+		};
+		59FF497C2B46034900E2B3A9 /* examenLiverPoolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59FF497D2B46034900E2B3A9 /* examenLiverPoolUITests.swift */,
+				59FF497F2B46034900E2B3A9 /* examenLiverPoolUITestsLaunchTests.swift */,
+			);
+			path = examenLiverPoolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59FF49552B46034800E2B3A9 /* examenLiverPool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59FF49832B46034900E2B3A9 /* Build configuration list for PBXNativeTarget "examenLiverPool" */;
+			buildPhases = (
+				59FF49522B46034800E2B3A9 /* Sources */,
+				59FF49532B46034800E2B3A9 /* Frameworks */,
+				59FF49542B46034800E2B3A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = examenLiverPool;
+			productName = examenLiverPool;
+			productReference = 59FF49562B46034800E2B3A9 /* examenLiverPool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59FF496E2B46034900E2B3A9 /* examenLiverPoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59FF49862B46034900E2B3A9 /* Build configuration list for PBXNativeTarget "examenLiverPoolTests" */;
+			buildPhases = (
+				59FF496B2B46034900E2B3A9 /* Sources */,
+				59FF496C2B46034900E2B3A9 /* Frameworks */,
+				59FF496D2B46034900E2B3A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59FF49712B46034900E2B3A9 /* PBXTargetDependency */,
+			);
+			name = examenLiverPoolTests;
+			productName = examenLiverPoolTests;
+			productReference = 59FF496F2B46034900E2B3A9 /* examenLiverPoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59FF49782B46034900E2B3A9 /* examenLiverPoolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59FF49892B46034900E2B3A9 /* Build configuration list for PBXNativeTarget "examenLiverPoolUITests" */;
+			buildPhases = (
+				59FF49752B46034900E2B3A9 /* Sources */,
+				59FF49762B46034900E2B3A9 /* Frameworks */,
+				59FF49772B46034900E2B3A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59FF497B2B46034900E2B3A9 /* PBXTargetDependency */,
+			);
+			name = examenLiverPoolUITests;
+			productName = examenLiverPoolUITests;
+			productReference = 59FF49792B46034900E2B3A9 /* examenLiverPoolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59FF494E2B46034800E2B3A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					59FF49552B46034800E2B3A9 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					59FF496E2B46034900E2B3A9 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 59FF49552B46034800E2B3A9;
+					};
+					59FF49782B46034900E2B3A9 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 59FF49552B46034800E2B3A9;
+					};
+				};
+			};
+			buildConfigurationList = 59FF49512B46034800E2B3A9 /* Build configuration list for PBXProject "examenLiverPool" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59FF494D2B46034800E2B3A9;
+			productRefGroup = 59FF49572B46034800E2B3A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59FF49552B46034800E2B3A9 /* examenLiverPool */,
+				59FF496E2B46034900E2B3A9 /* examenLiverPoolTests */,
+				59FF49782B46034900E2B3A9 /* examenLiverPoolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59FF49542B46034800E2B3A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59FF49692B46034900E2B3A9 /* LaunchScreen.storyboard in Resources */,
+				59FF49662B46034900E2B3A9 /* Assets.xcassets in Resources */,
+				59FF49612B46034800E2B3A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59FF496D2B46034900E2B3A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59FF49772B46034900E2B3A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59FF49522B46034800E2B3A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59FF495E2B46034800E2B3A9 /* ViewController.swift in Sources */,
+				59FF495A2B46034800E2B3A9 /* AppDelegate.swift in Sources */,
+				59FF49642B46034800E2B3A9 /* examenLiverPool.xcdatamodeld in Sources */,
+				59FF498F2B46219E00E2B3A9 /* TopPlayersViewController.swift in Sources */,
+				59FF498D2B460C8700E2B3A9 /* detailViewController.swift in Sources */,
+				59FF495C2B46034800E2B3A9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59FF496B2B46034900E2B3A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59FF49742B46034900E2B3A9 /* examenLiverPoolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59FF49752B46034900E2B3A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59FF497E2B46034900E2B3A9 /* examenLiverPoolUITests.swift in Sources */,
+				59FF49802B46034900E2B3A9 /* examenLiverPoolUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59FF49712B46034900E2B3A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59FF49552B46034800E2B3A9 /* examenLiverPool */;
+			targetProxy = 59FF49702B46034900E2B3A9 /* PBXContainerItemProxy */;
+		};
+		59FF497B2B46034900E2B3A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59FF49552B46034800E2B3A9 /* examenLiverPool */;
+			targetProxy = 59FF497A2B46034900E2B3A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59FF495F2B46034800E2B3A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59FF49602B46034800E2B3A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59FF49672B46034900E2B3A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59FF49682B46034900E2B3A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59FF49812B46034900E2B3A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59FF49822B46034900E2B3A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59FF49842B46034900E2B3A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = examenLiverPool/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-app.examenLiverPool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59FF49852B46034900E2B3A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = examenLiverPool/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-app.examenLiverPool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		59FF49872B46034900E2B3A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-app.examenLiverPoolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/examenLiverPool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/examenLiverPool";
+			};
+			name = Debug;
+		};
+		59FF49882B46034900E2B3A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-app.examenLiverPoolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/examenLiverPool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/examenLiverPool";
+			};
+			name = Release;
+		};
+		59FF498A2B46034900E2B3A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-app.examenLiverPoolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = examenLiverPool;
+			};
+			name = Debug;
+		};
+		59FF498B2B46034900E2B3A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-app.examenLiverPoolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = examenLiverPool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59FF49512B46034800E2B3A9 /* Build configuration list for PBXProject "examenLiverPool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59FF49812B46034900E2B3A9 /* Debug */,
+				59FF49822B46034900E2B3A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59FF49832B46034900E2B3A9 /* Build configuration list for PBXNativeTarget "examenLiverPool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59FF49842B46034900E2B3A9 /* Debug */,
+				59FF49852B46034900E2B3A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59FF49862B46034900E2B3A9 /* Build configuration list for PBXNativeTarget "examenLiverPoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59FF49872B46034900E2B3A9 /* Debug */,
+				59FF49882B46034900E2B3A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59FF49892B46034900E2B3A9 /* Build configuration list for PBXNativeTarget "examenLiverPoolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59FF498A2B46034900E2B3A9 /* Debug */,
+				59FF498B2B46034900E2B3A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		59FF49622B46034800E2B3A9 /* examenLiverPool.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				59FF49632B46034800E2B3A9 /* examenLiverPool.xcdatamodel */,
+			);
+			currentVersion = 59FF49632B46034800E2B3A9 /* examenLiverPool.xcdatamodel */;
+			path = examenLiverPool.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 59FF494E2B46034800E2B3A9 /* Project object */;
+}
